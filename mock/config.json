@@ -1,0 +1,9 @@
+{
+  "port": 9898,
+  "routes": "./mock/router.json",
+  "middlewares": [
+    "./mock/middlewares/_postAsGet.js",
+    "./mock/middlewares/_decodeChinese.js"
+  ],
+  "delay": 800
+}
